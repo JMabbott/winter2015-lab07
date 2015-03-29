@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE order SYSTEM	'bonanza.dtd'>
+
+<order type="eatin">
+	<customer>Joel</customer>
+	<burger>
+		<patty type="vege" />
+		<cheeses top="jack" bottom="jack" />
+		<topping type="lettuce" />
+		<topping type="tomato" />
+		<topping type="dill" />
+		<topping type="shrooms" />
+		<topping type="chilies" />
+		<sauce type="ketchup" />
+		<sauce type="mayo" />
+	</burger>
+	<burger>
+		<patty type="beef" />
+		<cheeses top="aged" />
+		<instructions>Put a tablespoon of unsalted peanut butter between the cheese and the beef</instructions>
+	</burger>
+</order>
